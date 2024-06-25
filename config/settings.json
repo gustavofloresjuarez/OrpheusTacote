@@ -73,8 +73,8 @@
             "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
             "quality_format": "{sample_rate}kHz {bit_depth}bit",
             "auth_with_tokens": true,
-            "username_or_UserID": "2602012",
-            "password_or_Token": "BYq_BLvGf5t6BPAI_cOz2oJWB1e8LVRYuYeLr4gADcvoVVpUxAo62Mu9ZZMp7iDrkPv31wzp2SkM7IqQ9sOvAA"
+            "username_or_UserID": "515522",
+            "password_or_Token": "6K-_WX7UbxZehSAQUFmKvs0Tk1eAOqka-2zhW3VFIFg3CF6lm0ELpyJyh5qtBIjT860of-W50FutJx4aGI9YfQ"
         },
         "musixmatch": {
             "token_limit": 10,
