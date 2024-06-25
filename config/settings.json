@@ -1,7 +1,7 @@
 {
     "global": {
         "general": {
-            "download_path": "/content/drive/MyDrive/Hi-Res 2",
+            "download_path": "/content/drive/MyDrive/Hi-Res 4",
             "download_quality": "hifi",
             "search_limit": 10
         },
@@ -27,9 +27,9 @@
             "credits": "default"
         },
         "lyrics": {
-            "embed_lyrics": true,
-            "embed_synced_lyrics": true,
-            "save_synced_lyrics": true
+            "embed_lyrics": false,
+            "embed_synced_lyrics": false,
+            "save_synced_lyrics": false
         },
         "covers": {
             "embed_cover": true,
@@ -73,8 +73,8 @@
             "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
             "quality_format": "{sample_rate}kHz {bit_depth}bit",
             "auth_with_tokens": true,
-            "username_or_UserID": "2972644",
-            "password_or_Token": "DRxx7-d9wFHYGYvHPP6ozYOtcgxmOobBoXChiVI_Yf3osdKGJDHPAhA45aEW90bL18WeifjVot1TPQkubZc9fw"
+            "username_or_UserID": "2602012",
+            "password_or_Token": "BYq_BLvGf5t6BPAI_cOz2oJWB1e8LVRYuYeLr4gADcvoVVpUxAo62Mu9ZZMp7iDrkPv31wzp2SkM7IqQ9sOvAA"
         },
         "musixmatch": {
             "token_limit": 10,
@@ -89,7 +89,7 @@
             "prefer_mhm1": false,
             "email": "",
             "password": "",
-            "arl": "f55af28958eaf51c9de99c6b1512e6ef01b209435126aa564ee2dd589490fc22ff48183d3f59cf51b3b757d5b24f5e8a4e44d6cc86004075a72bbc89f1165d08f017845a8f74c35a3fbf3dc28aa4fc76e75ad5a45df75c90ff576e0b1c4017d8"
+            "arl": "bc535363731cf9059ef2f709db0f9b131b070d984481bc844b095b7bb01a7a16fb48ca0e12ca7a7410ac4669289284ad6ce3bc25fa1164bdf2fc29e70db5b9d73edce32cb186f62881c18a18f5e98b09836a31f7873428144bc0c95ae939e9c6"
         }
     }
 }
