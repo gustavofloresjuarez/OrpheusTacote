@@ -27,9 +27,9 @@
             "credits": "default"
         },
         "lyrics": {
-            "embed_lyrics": false,
+            "embed_lyrics": true,
             "embed_synced_lyrics": false,
-            "save_synced_lyrics": false
+            "save_synced_lyrics": true
         },
         "covers": {
             "embed_cover": true,
@@ -68,28 +68,12 @@
     },
     "extensions": {},
     "modules": {
-        "qobuz": {
-            "app_id": "2635874",
+        "orpheusdl-qobuz": {
+            "app_id": "950096963",
             "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
-            "quality_format": "{sample_rate}kHz {bit_depth}bit",
-            "auth_with_tokens": true,
-            "username_or_UserID": "2709472",
-            "password_or_Token": "BYq_BLvGf5t6BPAI_cOz2oJWB1e8LVRYuYeLr4gADcvoVVpUxAo62Mu9ZZMp7iDrkPv31wzp2SkM7IqQ9sOvAA"
-        },
-        "musixmatch": {
-            "token_limit": 10,
-            "lyrics_format": "standard",
-            "custom_time_decimals": false
-        },
-        "deezer": {
-            "client_id": "447462",
-            "client_secret": "a83bf7f38ad2f137e444727cfc3775cf",
-            "bf_secret": "g4el58wc0zvf9na1",
-            "track_url_key": "jo6aey6haid2Teih",
-            "prefer_mhm1": false,
-            "email": "",
-            "password": "",
-            "arl": "faca848b0222800ac8c938c20574e6aa556bf388afc0193cc03e29659875756430bdf9ade3bed5b91fcd6ccd0cd327bd4625a75ebdbb828b276e76c20339d84b8dd561fbe8fd13f587ef13ba338fa3b9af86db56350851dfeca0632e49808377"
+            "quality_format": "{bit_depth}B-{sample_rate}kHz",
+            "user_id": "2709472",
+            "auth_token": "BYq_BLvGf5t6BPAI_cOz2oJWB1e8LVRYuYeLr4gADcvoVVpUxAo62Mu9ZZMp7iDrkPv31wzp2SkM7IqQ9sOvAA"
         }
     }
 }
