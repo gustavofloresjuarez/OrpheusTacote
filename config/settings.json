@@ -69,12 +69,12 @@
     "extensions": {},
     "modules": {
         "qobuz": {
-            "app_id": "950096963",
+            "app_id": "2635874",
             "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
             "quality_format": "{sample_rate}kHz {bit_depth}bit",
             "auth_with_tokens": true,
             "username_or_UserID": "515522",
-            "password_or_Token": "6K-_WX7UbxZehSAQUFmKvs0Tk1eAOqka-2zhW3VFIFg3CF6lm0ELpyJyh5qtBIjT860of-W50FutJx4aGI9YfQ"
+            "password_or_Token": "S3RT4gfZdNKD7tUk9t8tazANQxDZy6wD70EKW0smholQH8dku7OQeluMOiDiE_38zhZFxhOj1HMD0fxYQ993iw"
         },
         "musixmatch": {
             "token_limit": 10,
@@ -89,7 +89,7 @@
             "prefer_mhm1": false,
             "email": "",
             "password": "",
-            "arl": "bc535363731cf9059ef2f709db0f9b131b070d984481bc844b095b7bb01a7a16fb48ca0e12ca7a7410ac4669289284ad6ce3bc25fa1164bdf2fc29e70db5b9d73edce32cb186f62881c18a18f5e98b09836a31f7873428144bc0c95ae939e9c6"
+            "arl": "faca848b0222800ac8c938c20574e6aa556bf388afc0193cc03e29659875756430bdf9ade3bed5b91fcd6ccd0cd327bd4625a75ebdbb828b276e76c20339d84b8dd561fbe8fd13f587ef13ba338fa3b9af86db56350851dfeca0632e49808377"
         }
     }
 }
