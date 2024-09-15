@@ -1,0 +1,95 @@
+{
+    "global": {
+        "general": {
+            "download_path": "/content/drive/MyDrive/Hi-Res 4",
+            "download_quality": "hifi",
+            "search_limit": 10
+        },
+        "artist_downloading": {
+            "return_credited_albums": true,
+            "separate_tracks_skip_downloaded": true
+        },
+        "formatting": {
+            "album_format": "{name}{explicit}",
+            "playlist_format": "{name}{explicit}",
+            "track_filename_format": "{track_number}. {name}",
+            "single_full_path_format": "{name}",
+            "enable_zfill": true,
+            "force_album_format": false
+        },
+        "codecs": {
+            "proprietary_codecs": false,
+            "spatial_codecs": true
+        },
+        "module_defaults": {
+            "lyrics": "default",
+            "covers": "default",
+            "credits": "default"
+        },
+        "lyrics": {
+            "embed_lyrics": false,
+            "embed_synced_lyrics": false,
+            "save_synced_lyrics": false
+        },
+        "covers": {
+            "embed_cover": true,
+            "main_compression": "high",
+            "main_resolution": 1400,
+            "save_external": false,
+            "external_format": "png",
+            "external_compression": "low",
+            "external_resolution": 3000,
+            "save_animated_cover": true
+        },
+        "playlist": {
+            "save_m3u": true,
+            "paths_m3u": "absolute",
+            "extended_m3u": true
+        },
+        "advanced": {
+            "advanced_login_system": false,
+            "codec_conversions": {
+                "alac": "flac",
+                "wav": "flac"
+            },
+            "conversion_flags": {
+                "flac": {
+                    "compression_level": "5"
+                }
+            },
+            "conversion_keep_original": false,
+            "cover_variance_threshold": 8,
+            "debug_mode": false,
+            "disable_subscription_checks": false,
+            "enable_undesirable_conversions": false,
+            "ignore_existing_files": false,
+            "ignore_different_artists": true
+        }
+    },
+    "extensions": {},
+    "modules": {
+        "musixmatch": {
+            "token_limit": 10,
+            "lyrics_format": "standard",
+            "custom_time_decimals": false
+        },
+        "deezer": {
+            "client_id": "447462",
+            "client_secret": "a83bf7f38ad2f137e444727cfc3775cf",
+            "bf_secret": "g4el58wc0zvf9na1",
+            "track_url_key": "jo6aey6haid2Teih",
+            "prefer_mhm1": false,
+            "email": "",
+            "password": "",
+            "arl": "85345484c0491e56e4e60577a68d6ccfd1e7d6d4efda47dc952a83990386afa4638bbcf1e613c33702e4b41b3837b1ae398f19611bc719823f3f91d691632f098f65533f55a63f162e6e7a952cefe2c1d02d824b15830651194bae0a6d6a40c6"
+        },
+        "qobuz": {
+            "app_id": "950096963",
+            "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
+            "quality_format": "{sample_rate}kHz {bit_depth}bit",
+            "auth_with_tokens": true,
+            "username_or_UserID": "3157425",
+            "password_or_Token": "KrT4_d6GvbZFl94wmKZcQYR9QTfOgWCyN9ieUuXodtQcphA_YYqCnFwLATpxhMeSH-z1OaZx7ZyO-9e_5Ganig"
+        }
+    }
+}
