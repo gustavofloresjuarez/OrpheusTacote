@@ -1,7 +1,7 @@
 {
     "global": {
         "general": {
-            "download_path": "/content/drive/MyDrive/Hi-Res 4",
+            "download_path": "/content/drive/MyDrive/Hi-Res 5",
             "download_quality": "hifi",
             "search_limit": 10
         },
@@ -22,14 +22,14 @@
             "spatial_codecs": true
         },
         "module_defaults": {
-            "lyrics": "default",
+            "lyrics": "musixmatch",
             "covers": "default",
             "credits": "default"
         },
         "lyrics": {
-            "embed_lyrics": false,
-            "embed_synced_lyrics": false,
-            "save_synced_lyrics": false
+            "embed_lyrics": true,
+            "embed_synced_lyrics": true,
+            "save_synced_lyrics": true
         },
         "covers": {
             "embed_cover": true,
