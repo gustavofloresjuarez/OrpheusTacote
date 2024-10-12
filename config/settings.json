@@ -1,7 +1,7 @@
 {
     "global": {
         "general": {
-            "download_path": "/content/drive/MyDrive/Hi-Res 5",
+            "download_path": "/content/drive/MyDrive/Hi-Res 5/Peticiones11",
             "download_quality": "hifi",
             "search_limit": 10
         },
@@ -68,10 +68,13 @@
     },
     "extensions": {},
     "modules": {
-        "musixmatch": {
-            "token_limit": 10,
-            "lyrics_format": "standard",
-            "custom_time_decimals": false
+        "qobuz": {
+            "app_id": "950096963",
+            "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
+            "quality_format": "{sample_rate}kHz {bit_depth}bit",
+            "auth_with_tokens": true,
+            "username_or_UserID": "2709472",
+            "password_or_Token": "BYq_BLvGf5t6BPAI_cOz2oJWB1e8LVRYuYeLr4gADcvoVVpUxAo62Mu9ZZMp7iDrkPv31wzp2SkM7IqQ9sOvAA"
         },
         "deezer": {
             "client_id": "447462",
@@ -83,13 +86,10 @@
             "password": "",
             "arl": "85345484c0491e56e4e60577a68d6ccfd1e7d6d4efda47dc952a83990386afa4638bbcf1e613c33702e4b41b3837b1ae398f19611bc719823f3f91d691632f098f65533f55a63f162e6e7a952cefe2c1d02d824b15830651194bae0a6d6a40c6"
         },
-        "qobuz": {
-            "app_id": "950096963",
-            "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
-            "quality_format": "{sample_rate}kHz {bit_depth}bit",
-            "auth_with_tokens": true,
-            "username_or_UserID": "3157425",
-            "password_or_Token": "KrT4_d6GvbZFl94wmKZcQYR9QTfOgWCyN9ieUuXodtQcphA_YYqCnFwLATpxhMeSH-z1OaZx7ZyO-9e_5Ganig"
+        "musixmatch": {
+            "token_limit": 10,
+            "lyrics_format": "standard",
+            "custom_time_decimals": false
         }
     }
 }
