@@ -1,7 +1,7 @@
 {
     "global": {
         "general": {
-            "download_path": "/content/drive/MyDrive/Hi-Res 5/Peticiones11",
+            "download_path": "/content/drive/MyDrive/Hi-Res",
             "download_quality": "hifi",
             "search_limit": 10
         },
@@ -28,7 +28,7 @@
         },
         "lyrics": {
             "embed_lyrics": true,
-            "embed_synced_lyrics": true,
+            "embed_synced_lyrics": false,
             "save_synced_lyrics": true
         },
         "covers": {
@@ -68,28 +68,28 @@
     },
     "extensions": {},
     "modules": {
-        "qobuz": {
-            "app_id": "950096963",
-            "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
-            "quality_format": "{sample_rate}kHz {bit_depth}bit",
-            "auth_with_tokens": true,
-            "username_or_UserID": "3917728",
-            "password_or_Token": "NKX7Z2lnAfE4X6lDYcEQN4o6Ij5NWaf0gVk1SdXHhEQm8-Iy9wARZC1bojvk1FabUD6w7ByLPhD2UvSPd6EtrA"
-        },
-        "deezer": {
-            "client_id": "447462",
-            "client_secret": "a83bf7f38ad2f137e444727cfc3775cf",
-            "bf_secret": "g4el58wc0zvf9na1",
-            "track_url_key": "jo6aey6haid2Teih",
-            "prefer_mhm1": false,
-            "email": "",
-            "password": "",
-            "arl": "f629b3135c4a356079182f3ab6b508efcecfe659ab157c557a2648aa22e9f64fed7c0b489453bd554625cd92cc23f82766b3bf7c91dce60f8afbe9ea8ab7483d3ba22bdfa303e59457374f97abb8feecb54f19585ec04c5f178715203cdecc55"
-        },
         "musixmatch": {
             "token_limit": 10,
             "lyrics_format": "standard",
             "custom_time_decimals": false
+        },
+        "deezer": {
+            "client_id": "447462",
+            "client_secret": "a83bf7f38ad2f137e444727cfc3775cf",
+            "bf_secret": "",
+            "track_url_key": "",
+            "prefer_mhm1": false,
+            "email": "",
+            "password": "",
+            "arl": ""
+        },
+        "qobuz": {
+            "app_id": "579939560",
+            "app_secret": "fa31fc13e7a28e7d70bb61e91aa9e178",
+            "quality_format": "{sample_rate}kHz {bit_depth}bit",
+            "auth_with_tokens": true,
+            "username_or_UserID": "3917728",
+            "password_or_Token": "NKX7Z2lnAfE4X6lDYcEQN4o6Ij5NWaf0gVk1SdXHhEQm8-Iy9wARZC1bojvk1FabUD6w7ByLPhD2UvSPd6EtrA"
         }
     }
 }
